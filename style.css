@@ -1,0 +1,32 @@
+body {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  text-align: justify;
+}
+
+.title {
+  text-align: center;
+  text-justify: inter-word;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 3em;
+  margin: 0 0 0.1em 0;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 0.9em;
+  margin: 0 0 50px;
+  color: #999;
+}
+
+a {
+  margin-top: 50px;
+  color: #3e95cd;
+}

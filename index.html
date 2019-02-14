@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Beverages & Energy</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="title">
+      <h1>What is the cheapest drink to stay awake ?</h1>
+	  <p><b>Is it worthier to take coffees or energy drinks ? Unless you are used to enjoy teas ?</b></p>
+	  </div>
+	  <div class="wrapper">
+	  <p>Most people use to drink coffees in their daily life at their working place or even at home. But is it the most economical way to get energy (after sleeping) ? If
+	  we compare it with other products in terms of caffeine concentration, coffee wins easily the battle. Below a bar chart showing it. 
+	  <p>We have sorted various beverages by type : Coca Cola, Diet Coke and Pepsi as <em>"sodas"</em>, Red Bull and Monster as <em>"energy drinks"</em>, 
+	  coffees produced by Dolce Gusto pods/capsules as <em>"pod coffees"</em>, Lipton and Pure Leaf iced drinks as <em>"iced teas"</em>, some Lipton tea bags as 
+	  <em>"tea Infusions"</em>, and Starbucks/Macdonalds Coffees as <em>"fast food coffees"</em>.</p><br><br>
+	  
+	<canvas id="bar-chart-caffeine-concentration-by-group" width="800" height="450"></canvas><br><br>
+	
+	<p>Although "Pod Coffees" could have a fewer concentration because of an imperfect filtration of the coffee in the capsule, they are from far the bests. So we are led to think
+	that they are the most efficient drink ever to stay awake. However, I'm sure you've already had the feeling that the "machine" coffee at the office was less strong than a good one in a coffeeshop
+	like Starbucks, haven't you ?</p>
+	
+	<p>It's because pod coffees are actually weaker. Indeed, the results are quite different if you take your beverage in its traditional format (can for sodas, long cups for fast 
+	food coffees)) :</p><br><br>
+	
+	<canvas id="bar-chart-traditional-caffeine-concentration-by-drink" width="800" height="450"></canvas>
+	
+	<p>So if you have only time for one drink, the best solution is without doubt a Starbucks Caffe Mocha Grande.</p>
+	<p>However, one important aspect is missing in the reasoning : the price ! That's why I checked how does each drink cost on the <a href="https://grocery.walmart.com/">Walmart's official grocery website</a> and 
+	the menus of <a href="https://www.fastfoodmenuprices.com/starbucks-prices/">Starbucks</a> and <a href="https://www.fastfoodmenuprices.com/mcdonalds-prices/">McDonald</a> in California.
+	Then, if we divide the occuring caffeine by the related price of the beverage, we get an "efficiency" rate as following :</p><br><br>
+	
+	<canvas id="bar-chart-coffee-dollar-rate-by-group" width="800" height="450"></canvas><br><br>
+	
+	<p>Tea infusions are the indisputed winners ! If you are ready to drink a lot of water and not afraid to go to the toilets every 5 minute, they are from far the cheapest drink
+	to stay awake. You can moreover find them almost everywhere ! So if you wish to make huge spare of money this year, you know what to do. :)</p><br><br>
+	
+	<h1>Methodology :</h1><br><br>
+	
+	I took caffeine concentrations from the <a href="caffeineinformer.com">Caffeine Informer Website</a> or from the official producer article descriptions or websites.
+	About the prices, I decided to take the ones of a random famous american chain of supermarkets, like Walmart. Thus I got them on their 
+	<a href="https://grocery.walmart.com/">grocery shop</a>. I couldn't buy through it some products like the prepared ones of fast foods or the pod coffees. That's why 
+	I checked for Starbucks and McDonalds this comparator <a href="">website</a> and the official pricing of <a href="https://www.dolce-gusto.us/">Dolce Gusto USA</a>. All information are available on the Excel spreadsheet that I created
+	by collecting the data and that I joined with this source code.
+	
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
