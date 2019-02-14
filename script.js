@@ -1,3 +1,15 @@
+/*
+@author: HicBoux
+@keywords : Data Visualization, DataViz, 
+@copyright :  Copyright 2019, HicBoux
+@license : Apache License 2.0
+@version : 0.1
+@bibliography : https://www.caffeineinformer.com/ for the caffeine rates, https://grocery.walmart.com/ and official websites 
+of the producers for the prices.
+Script to draw the charts displayed in the html page "index.htm". Data were input manually by copying and pasting rows from the Excel
+file.
+*/
+
 // Our labels along the x-axis
 Chart.defaults.global.defaultFontStyle = 'Bold'
 
