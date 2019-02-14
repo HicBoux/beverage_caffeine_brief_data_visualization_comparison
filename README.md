@@ -1,8 +1,7 @@
 <h1>A brief comparison of common Drinks in terms of Caffeine concentration with Data Visualizations</h1>
 
-In this simple study, a list of drinks like coffee, tea or energy from different brands such as McDonalds, Starbucks, Lipton etc... have 
-been compared in terms of price, caffeine, quantity and caffeine-price ratio. Now you will be able to know what is the cheapest way to stay 
-awake at work !
+In this simple study, a list of beverages like coffee, tea or energy drinks from different brands such as McDonalds, Starbucks, Lipton etc... have 
+been compared in terms of price, caffeine, quantity and caffeine-price ratio. Now you will be able to know what is the cheapest way to stay awake at work !
 
 <h2>Installation</h2>
 
@@ -13,6 +12,8 @@ short article and see the various charts done with Chart.js.
 
 The caffeine rates were found on [Caffeine Informer](caffeineinformer.com) or the official websites of the producers. The prices have been 
 taken from the Walmart Grocery online store. 
+
+The charts were built manually thanks to the Javascript library Chart.js.
 
 
 <h2>References</h2>
